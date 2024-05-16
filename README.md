@@ -1,5 +1,5 @@
 <br>
-<h1 align="center">Projeto B2bit</h1>
+<h1 align="center">Projeto Login</h1>
 
 <p align="center">
     Bem-vindo ao meu sistema de login! Esse sistema oferece acesso seguro ao perfil do usuário, garantindo uma experiência simplificada e sem complicações.
