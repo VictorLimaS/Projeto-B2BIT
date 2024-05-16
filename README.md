@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+<br>
+<h1 align="center">Projeto B2bit</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+    Bem-vindo ao meu sistema de login! Esse sistema oferece acesso seguro ao perfil do usuário, garantindo uma experiência simplificada e sem complicações.
+Ao solicitar o login, nossa aplicação envia as informações fornecidas pelo usuário para nossa API. Se os dados forem válidos, você será redirecionado para uma página exclusiva do perfil. Para garantir sua comodidade, seus dados de login são armazenados na LocalStorage, evitando a necessidade de inseri-los novamente em futuros acessos.
+Caso você insira informações incorretas, uma mensagem de erro será exibida, permitindo que você corrija e tente novamente.
+Em nossa página de login, você encontrará um botão para sair do perfil. Ao clicar neste botão, todas as suas credenciais armazenadas serão removidas, garantindo sua privacidade e segurança.
+Aproveite a facilidade e segurança do sistema de login e tenha uma experiência tranquila e segura!<br />
+    <br>
 
-Currently, two official plugins are available:
+<p align="center">
+    <img alt="projeto spotify" src="/src/assets/img/readme.png" width="100%"
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛸 Tecnologias
 
-## Expanding the ESLint configuration
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- HTML e Tailwind <img align="center" alt="Victor" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" alt="Victor" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg">
+- React <img align="center" alt="Victor" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+- Typescript <img align="center" alt="Victor" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+- Json <img align="center" alt="Victor" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/json/json-original.svg">
+- Git e Github <img align="center" alt="Victor-Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> <img align="center" alt="Victor-GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
 
-- Configure the top-level `parserOptions` property like this:
+## 🖥️ Projeto 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+- [Da uma olhada ai](#)
+
+
+
+Feito com ♥ by Victor Lima
