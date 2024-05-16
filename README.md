@@ -24,6 +24,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Json <img align="center" alt="Victor" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/json/json-original.svg">
 - Git e Github <img align="center" alt="Victor-Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> <img align="center" alt="Victor-GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
 
+## Usei essas dependências no Projeto: 
+
+Axios - Para fazer as requisições HTTP.
+React-dom - Para renderizar os componentes.
+React-route - Usei para criar SPA com navegação dinâmica.
+Private - Usei para proteger as rotas que requerem autenticação.
+
 ## 🖥️ Projeto 
 
 
