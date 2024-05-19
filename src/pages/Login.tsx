@@ -1,12 +1,11 @@
+import CardLogin from "../components/CardLogin";
 
-import Card from '../components/Card';
-
-function Home() {
+function Login() {
     return (
         <div>
-            <Card/>
+            <CardLogin/>
         </div>
     );
 }
 
-export default Home;
+export default Login;

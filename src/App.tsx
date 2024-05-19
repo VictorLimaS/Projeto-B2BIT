@@ -1,11 +1,12 @@
-import { Outlet } from 'react-router';
+import React from 'react';
+import './index.css';
+import { Router } from './router';
 
-function App() {
+export default function App() {
+
   return (
-    <div>
-      <Outlet/>
-    </div>
+    <React.StrictMode>
+      <Router />
+    </React.StrictMode>
   )
-};
-
-export default App;
+}
