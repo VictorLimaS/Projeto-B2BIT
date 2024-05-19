@@ -8,7 +8,7 @@ const CardHome: React.FC = () => {
             <div className="flex flex-col items-center justify-center min-h-screen">
                 <Header />
                 <div className="bg-white rounded-2xl p-[30px] shadow-3x1 w-[356px] h-auto">
-                    <p className="text-md mb-[9px] text-center text-[12px] text-[#2F2F2F] ">Profile picture</p>
+                    <p className="text-md mb-[9px] text-center text-[12px] text-[#2F2F2F]">Profile picture</p>
                     <div className="flex items-center justify-center mb-[30px]">
                         <img src="./src/assets/img/perfil.png" alt="Foto de perfil" className="rounded-lg w-[58px] h-[56px]" />
                     </div>

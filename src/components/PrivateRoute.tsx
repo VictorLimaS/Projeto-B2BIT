@@ -13,10 +13,6 @@ export function PrivateRoute({ children }: Props) {
         const token = localStorage.getItem('token');
         setUser(!!token);
     }, []);
-
-    if (location.pathname !== '/' && !user) {
-        return <Navigate to='/' />;
-    }
-
-    return user ? <>{children}</> : null;
+    
+    return user ? <>{children}</> : <div>Loading...</div>;
 }
