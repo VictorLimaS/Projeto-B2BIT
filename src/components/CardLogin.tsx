@@ -3,31 +3,28 @@ import { Formik, Form } from 'formik';
 import { LoginSchema } from '../validation/LoginSchema';
 import Input from "./input";
 import Button from "./Button";
-import { useNavigate } from 'react-router-dom';
-import axios from "axios";
 import toast from "react-hot-toast";
-import logoImg from "../assets/img/B2Bit Logo.png"; 
+import logoImg from "../assets/img/B2Bit Logo.png";
+import { api } from "../api/axios";
+import { ILoginRequest } from "../models/interface/request/ILoginRequest";
+
 
 const CardLogin: React.FC = () => {
-    const navigate = useNavigate();
     const headers = {
         'Accept': 'application/json;version=v1_web',
         'Content-Type': 'application/json',
-    };
+    }    
 
-    interface FormValues {
-        email: string;
-        password: string;
-    }
-
-    async function handleSubmit(values: FormValues){
+    async function handleSubmit(values: ILoginRequest) {
         try {
-            const res = await axios.post('https://api.homologation.cliqdrive.com.br/auth/login/', values, { headers });
+            const res = await api.post('/auth/login/', values,{headers});
             localStorage.setItem('token', res.data.tokens.access);
             localStorage.setItem('refreshToken', res.data.tokens.refresh);
-            navigate('/home');
+            window.location.href = '/home';
         } catch (error) {
             toast.error('Credenciais Inválida');
+            localStorage.removeItem('token');
+            localStorage.removeItem('refreshToken');
         }
     }
 

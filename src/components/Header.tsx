@@ -1,15 +1,13 @@
 import React from "react";
 import Button from "./Button";
-import { useNavigate } from 'react-router-dom';
 
 
 const Header: React.FC = () => {
-    const navigate = useNavigate()
 
     function handleLogout() {
         localStorage.removeItem('token');
         localStorage.removeItem('refreshToken');
-        navigate('/');
+        window.location.href = '/';
     }
 
     return (
