@@ -21,11 +21,6 @@ npm install
 npm run dev
 ```
 
-### Unit tests
-```
-npm run test
-```
-
 ### Login data
 ```
 Email: cliente@youdrive.com
