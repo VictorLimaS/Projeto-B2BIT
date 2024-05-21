@@ -1,21 +1,46 @@
 <br>
-<h1 align="center">Projeto Login</h1>
+<h1 align="center">Login Project</h1>
 
 <p align="center">
-    Bem-vindo ao meu sistema de login! Esse sistema oferece acesso seguro ao perfil do usuário, garantindo uma experiência simplificada e sem complicações.
-Ao solicitar o login, nossa aplicação envia as informações fornecidas pelo usuário para nossa API. Se os dados forem válidos, você será redirecionado para uma página exclusiva do perfil. Para garantir sua comodidade, seus dados de login são armazenados na LocalStorage, evitando a necessidade de inseri-los novamente em futuros acessos.
-Caso você insira informações incorretas, uma mensagem de erro será exibida, permitindo que você corrija e tente novamente.
-Em nossa página de login, você encontrará um botão para sair do perfil. Ao clicar neste botão, todas as suas credenciais armazenadas serão removidas, garantindo sua privacidade e segurança.
-Aproveite a facilidade e segurança do sistema de login e tenha uma experiência tranquila e segura!<br />
+    Welcome to my login system! This system offers secure access to the user profile, ensuring a simplified and hassle-free experience.
+When requesting login, our application sends the information provided by the user to our API. If the data is valid, you will be redirected to a unique profile page. To ensure your convenience, your login details are stored in LocalStorage, avoiding the need to re-enter them during future access.
+If you enter incorrect information, an error message will be displayed, allowing you to correct it and try again.
+On our login page, you will find a button to log out of your profile. By clicking this button, all your stored credentials will be removed, ensuring your privacy and security.
+Enjoy the ease and security of the login system and have a smooth and safe experience!<br />
     <br>
+
+## how to access
+
+
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run dev
+```
+
+### Unit tests
+```
+npm run test
+```
+
+### Login data
+```
+Email: cliente@youdrive.com
+Senha: password
+```
+
+
 
 <p align="center">
     <img alt="projeto spotify" src="/src/assets/img/readme.png" width="100%"
 </p>
 
-## 🛸 Tecnologias
+## 🛸 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - HTML e Tailwind <img align="center" alt="Victor" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" alt="Victor" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg">
 - Vitejs <img align="center" alt="Victor" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg">
@@ -24,19 +49,19 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Json <img align="center" alt="Victor" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/json/json-original.svg">
 - Git e Github <img align="center" alt="Victor-Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> <img align="center" alt="Victor-GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
 
-## Usei essas dependências no Projeto: 
+## I used these dependencies in the Project
 
-Axios - Para fazer as requisições HTTP.
-React-dom - Para renderizar os componentes.
-React-route - Usei para criar SPA com navegação dinâmica.
-Private - Usei para proteger as rotas que requerem autenticação.
+Axios - To make HTTP requests.
+React-dom - To render the components.
+React-route - I used it to create SPA with dynamic navigation.
+Private - I used it to protect routes that require authentication.
 
-## 🖥️ Projeto 
-
-
-
-- [Da uma olhada ai](#)
+## 🖥️ Project 
 
 
 
-Feito com ♥ by Victor Lima
+- [Take a look there](#)
+
+
+
+Made with ♥ by Victor Lima
