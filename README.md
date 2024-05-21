@@ -9,7 +9,10 @@ On our login page, you will find a button to log out of your profile. By clickin
 Enjoy the ease and security of the login system and have a smooth and safe experience!<br />
     <br>
 
-    ## Project setup
+
+## how to access
+
+
 ```
 npm install
 ```
@@ -29,6 +32,8 @@ npm run test
 Email: eve.holt@reqres.in
 Senha: 123456
 ```
+
+
 
 <p align="center">
     <img alt="projeto spotify" src="/src/assets/img/readme.png" width="100%"
