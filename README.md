@@ -51,10 +51,13 @@ This project was developed with the following technologies:
 
 ## I used these dependencies in the Project
 
-Axios - To make HTTP requests.
-React-dom - To render the components.
-React-route - I used it to create SPA with dynamic navigation.
-Private - I used it to protect routes that require authentication.
+Axios - To make HTTP requests.<br>
+React-dom - To render the components.<br>
+React-route - I used it to create SPA with dynamic navigation.<br>
+Private - I used it to protect routes that require authentication. <br>
+Formik - To facilitate the management, validation and submission of forms.<br>
+Yup - Yup is a JavaScript library for validating schemas.<br>
+React-hot-toast - Library that displays interactive and custom notifications in React.<br>
 
 ## 🖥️ Project 
 
